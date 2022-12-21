@@ -1,0 +1,12 @@
+C:\Users\hiban\source\repos\MrLink\MrLink.Domain\bin\Debug\net6.0\MrLink.Domain.deps.json
+C:\Users\hiban\source\repos\MrLink\MrLink.Domain\bin\Debug\net6.0\MrLink.Domain.dll
+C:\Users\hiban\source\repos\MrLink\MrLink.Domain\bin\Debug\net6.0\MrLink.Domain.pdb
+C:\Users\hiban\source\repos\MrLink\MrLink.Domain\obj\Debug\net6.0\MrLink.Domain.csproj.AssemblyReference.cache
+C:\Users\hiban\source\repos\MrLink\MrLink.Domain\obj\Debug\net6.0\MrLink.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hiban\source\repos\MrLink\MrLink.Domain\obj\Debug\net6.0\MrLink.Domain.AssemblyInfoInputs.cache
+C:\Users\hiban\source\repos\MrLink\MrLink.Domain\obj\Debug\net6.0\MrLink.Domain.AssemblyInfo.cs
+C:\Users\hiban\source\repos\MrLink\MrLink.Domain\obj\Debug\net6.0\MrLink.Domain.csproj.CoreCompileInputs.cache
+C:\Users\hiban\source\repos\MrLink\MrLink.Domain\obj\Debug\net6.0\MrLink.Domain.dll
+C:\Users\hiban\source\repos\MrLink\MrLink.Domain\obj\Debug\net6.0\refint\MrLink.Domain.dll
+C:\Users\hiban\source\repos\MrLink\MrLink.Domain\obj\Debug\net6.0\MrLink.Domain.pdb
+C:\Users\hiban\source\repos\MrLink\MrLink.Domain\obj\Debug\net6.0\ref\MrLink.Domain.dll

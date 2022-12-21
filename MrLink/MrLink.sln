@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MrLink.Domain", "MrLink.Domain", "{42153C78-48FC-4D11-A0C9-9E84DA3E2171}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MrLink.Persistence", "MrLink.Persistence", "{B2C179CF-9341-4388-AF8E-41BF7FFC9643}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MrLink.Application", "MrLink.Application", "{6E9331B5-327B-4256-9CB1-D998848B92E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MrLink.WebApi", "MrLink.WebApi", "{2AECFC60-7D43-4EDD-9014-FC1DB0FAAD0A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MrLink.Tests", "MrLink.Tests", "{649AE8E2-1CB1-4B1C-9722-5BE54AEF04FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MrLink.Application", "MrLink.Application\MrLink.Application.csproj", "{ADFF1171-A426-42B6-9F9E-DC80910A259C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MrLink.Domain", "MrLink.Domain\MrLink.Domain.csproj", "{A2CD2277-3C26-4C79-BE77-24C079B26500}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MrLink.Persistence", "MrLink.Persistence\MrLink.Persistence.csproj", "{1BBC071F-1B6E-47A6-9381-31C139FB6218}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MrLink.WebApi", "MrLink.WebApi\MrLink.WebApi.csproj", "{80D20CB9-3143-441A-8868-53997CF0AA3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADFF1171-A426-42B6-9F9E-DC80910A259C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADFF1171-A426-42B6-9F9E-DC80910A259C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADFF1171-A426-42B6-9F9E-DC80910A259C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADFF1171-A426-42B6-9F9E-DC80910A259C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2CD2277-3C26-4C79-BE77-24C079B26500}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2CD2277-3C26-4C79-BE77-24C079B26500}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2CD2277-3C26-4C79-BE77-24C079B26500}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2CD2277-3C26-4C79-BE77-24C079B26500}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BBC071F-1B6E-47A6-9381-31C139FB6218}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BBC071F-1B6E-47A6-9381-31C139FB6218}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BBC071F-1B6E-47A6-9381-31C139FB6218}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BBC071F-1B6E-47A6-9381-31C139FB6218}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80D20CB9-3143-441A-8868-53997CF0AA3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80D20CB9-3143-441A-8868-53997CF0AA3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80D20CB9-3143-441A-8868-53997CF0AA3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80D20CB9-3143-441A-8868-53997CF0AA3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ADFF1171-A426-42B6-9F9E-DC80910A259C} = {6E9331B5-327B-4256-9CB1-D998848B92E2}
+		{A2CD2277-3C26-4C79-BE77-24C079B26500} = {42153C78-48FC-4D11-A0C9-9E84DA3E2171}
+		{1BBC071F-1B6E-47A6-9381-31C139FB6218} = {B2C179CF-9341-4388-AF8E-41BF7FFC9643}
+		{80D20CB9-3143-441A-8868-53997CF0AA3E} = {2AECFC60-7D43-4EDD-9014-FC1DB0FAAD0A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08743161-7E0A-4EC5-BF46-63E4F70EBB36}
+	EndGlobalSection
+EndGlobal

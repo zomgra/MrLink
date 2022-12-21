@@ -1,0 +1,22 @@
+﻿@model MLinkInfoViewModel
+
+<table class="table table-bordered table-info">
+    <thead class="thead-ligh">
+        <tr>
+            <th>Date</th>
+            <th>Views</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var key in Model.Transitions.Keys)
+        {
+            @foreach (var value in Model.Transitions.Values)
+            {
+                <tr>
+                    <td>@key.Date.ToString("d")</td>
+                    <td>@value</td>
+                </tr>
+            }      
+        }
+    </tbody>
+</table>
