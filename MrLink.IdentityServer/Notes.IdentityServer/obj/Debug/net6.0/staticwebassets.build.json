@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "unDLiO77nHIE43yhCx5Nhs7PCd4+fUfHnVV1U1qoMP8=",
-  "Source": "Notes.IdentityServer",
-  "BasePath": "_content/Notes.IdentityServer",
+  "Hash": "GDiYwUYT96t4Mw4vITbG5gh0KE65f1dXShmlL6FXFeA=",
+  "Source": "MrLink.IdentityServer",
+  "BasePath": "_content/MrLink.IdentityServer",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

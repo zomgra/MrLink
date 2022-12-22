@@ -1,6 +1,6 @@
 ﻿@model LoginViewModel
-<link href = @Url.Content("~/styles/app.css") rel="stylesheet" type="text/css"/>
-<form asp-action="Login" asp-controller="Auth" method="post">
+<link href=@Url.Content("~/styles/bootstrap.css") rel="stylesheet" type="text/css" />
+@*<form >
     <input hidden asp-for="ReturnUrl"/>
     <div class="header">Login</div>
     <div class="block">
@@ -13,31 +13,30 @@
         <span asp-validation-for="Password"></span>
     </div>
     <div class="block">
-        <button type="submit" class="button">Sign in</button>
+      
     </div>
-    <a asp-action="Register" asp-route-returnUrl="@Model.ReturnUrl" asp-controller="Auth" class="switch-button">Haven`t account</a>
-</form>
+    <a asp-action="Register"  class="switch-button">Haven`t account</a>
+</form>*@
 
-<main class="form-signin">
-    <form>
-        <img class="mb-4" src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
-        <h1 class="h3 mb-3 fw-normal">Пожалуйста, войдите</h1>
+<body class="text-center">
 
-        <div class="form-floating">
-            <input  class="form-control" asp-for="@Model.Username" placeholder="Username">
+    <main style="display: inline-block; float: none" class="form-signin">
+    <form asp-action="Login" asp-controller="Auth" method="post" class="mt-xl-5 w-auto">
+        <h1 class="h3 mb-3 mt-5 fw-normal">Пожалуйста, войдите</h1>
+
+        <div class="form-floating pt-2">
+            <label>Username</label>
+                <input class="form-control" asp-for="@Model.Username" placeholder="Username">
+            <span asp-validation-for="Username"></span>
+        </div>
+        <div class="form-floating mb-3 pt-2">
+            <label>Password</label>
+            <input type="password" asp-for="@Model.Password" class="form-control" id="floatingPassword" placeholder="Password">
             <span asp-validation-for="Password"></span>
         </div>
-        <div class="form-floating">
-            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-            <label for="floatingPassword">Пароль</label>
-        </div>
-
-        <div class="checkbox mb-3">
-            <label>
-                <input type="checkbox" value="remember-me"> Запомнить меня
-            </label>
-        </div>
-        <button class="w-100 btn btn-lg btn-primary" type="submit">Войти</button>
-        <p class="mt-5 mb-3 text-muted">© 2017–2021</p>
+            <button type="submit" class="w-100 btn mb-3 btn-lg btn-outline-primary">Log in</button>
+        <a asp-action="Register" asp-route-returnUrl="@Model.ReturnUrl" asp-controller="Auth" class="btn btn-s btn-info">Еще нет аккаунта?</a>
+        <p class="mt-5 mb-3 text-muted">© 2022</p>
     </form>
 </main>
+</body>

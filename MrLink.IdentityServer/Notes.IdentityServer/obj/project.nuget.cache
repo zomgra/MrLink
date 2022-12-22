@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "V+/ThVX+yVdkJ55mWEWEq9V/JClQr+4GHo3wTP/aTZZBMC3prGq28Kx8amK1mJoEfpxT96FJvvQt610nZn+89Q==",
+  "dgSpecHash": "OmFuZU9GV72jy/zQr/G0raWGqvTicMCfWCvsavnA38hia0xymeGuBvovLJsHDzsw8v7lSnwg55d+8UGcZlQsBA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hiban\\source\\repos\\Notes.IdentityServer\\Notes.IdentityServer\\MrLink.IdentityServer.csproj",
+  "projectFilePath": "C:\\Users\\hiban\\source\\repos\\MrLink.FullProject\\MrLink.IdentityServer\\Notes.IdentityServer\\MrLink.IdentityServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hiban\\.nuget\\packages\\identitymodel\\4.4.0\\identitymodel.4.4.0.nupkg.sha512",
     "C:\\Users\\hiban\\.nuget\\packages\\identityserver4\\4.1.2\\identityserver4.4.1.2.nupkg.sha512",

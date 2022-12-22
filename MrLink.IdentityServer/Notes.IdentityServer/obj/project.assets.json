@@ -1893,11 +1893,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hiban\\source\\repos\\Notes.IdentityServer\\Notes.IdentityServer\\MrLink.IdentityServer.csproj",
+      "projectUniqueName": "C:\\Users\\hiban\\source\\repos\\MrLink.FullProject\\MrLink.IdentityServer\\Notes.IdentityServer\\MrLink.IdentityServer.csproj",
       "projectName": "MrLink.IdentityServer",
-      "projectPath": "C:\\Users\\hiban\\source\\repos\\Notes.IdentityServer\\Notes.IdentityServer\\MrLink.IdentityServer.csproj",
+      "projectPath": "C:\\Users\\hiban\\source\\repos\\MrLink.FullProject\\MrLink.IdentityServer\\Notes.IdentityServer\\MrLink.IdentityServer.csproj",
       "packagesPath": "C:\\Users\\hiban\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hiban\\source\\repos\\Notes.IdentityServer\\Notes.IdentityServer\\obj\\",
+      "outputPath": "C:\\Users\\hiban\\source\\repos\\MrLink.FullProject\\MrLink.IdentityServer\\Notes.IdentityServer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hiban\\AppData\\Roaming\\NuGet\\NuGet.Config",
