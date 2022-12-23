@@ -1,7 +1,29 @@
-﻿    <form asp-action="CreateLink" data-ajax="true"  data-ajax-method="post" data-ajax-mode="replace" data-ajax-update="#result" method="post">
-        <input placeholder="link" name="link" type="text"/>
-        <button type="submit"></button>
+﻿    @*<form asp-action="CreateLink" id="create-link-form" data-ajax="true"  data-ajax-method="post" data-ajax-mode="replace" data-ajax-update="#result" method="post">*@
+    <form id="create-link-form">      
+      <input placeholder="link" id="link" name="link" type="text"/>
+            <button type="submit"></button>
     </form>
 <div id="result">
 
 </div>
+
+@section Scripts{
+
+<script>
+    $('#create-link-form').on('submit', function (event) {
+        console.log($(this))
+        console.log($('#link').prop('value'))
+        $.ajax({
+            type: 'POST',
+            
+            success: function (data) {
+                $('#result').html(data)
+            },
+            data: "link="+$('#link').prop('value'),
+            url:"@Url.Action("CreateLink")"
+        })
+        event.preventDefault()
+        return false
+    })
+</script>
+}

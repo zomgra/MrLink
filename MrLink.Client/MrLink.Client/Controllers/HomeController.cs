@@ -8,7 +8,6 @@ using System.Diagnostics;
 
 namespace MrLink.Client.Controllers
 {
-    [Authorize]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -23,12 +22,12 @@ namespace MrLink.Client.Controllers
 
         public async Task<IActionResult> Index()
         {
-            var accessToken = await HttpContext.GetTokenAsync("access_token");
-            client.SetBearerToken(accessToken);
-            var url = _configuration.GetValue<string>("GetListUrl");
-
             try
             {
+                var accessToken = await HttpContext.GetTokenAsync("access_token");
+                client.SetBearerToken(accessToken);
+                var url = _configuration.GetValue<string>("GetListUrl");
+
                 var responce = await client.GetStringAsync(url);
                 if (responce == null)
                 {
@@ -43,11 +42,13 @@ namespace MrLink.Client.Controllers
             }
         }
         [HttpGet]
+        [Authorize]
         public IActionResult CreateLink()
         {
             return View();
         }
         [HttpPost]
+        [Authorize]
         public async Task<string> CreateLink(string link)
         {
             var accessToken = await HttpContext.GetTokenAsync("access_token");
@@ -62,6 +63,7 @@ namespace MrLink.Client.Controllers
             }
             return $"ERROR: {responce.StatusCode}, please write me: /..../";
         }
+        [Authorize]
         public async Task<ActionResult<MLinkInfoViewModel>> GetInfo(Guid guid)
         {
             var accessToken = await HttpContext.GetTokenAsync("access_token");
@@ -75,6 +77,11 @@ namespace MrLink.Client.Controllers
             return View(vm);
         }
         public IActionResult Privacy()
+        {
+            return View();
+        }
+
+        public IActionResult About()
         {
             return View();
         }

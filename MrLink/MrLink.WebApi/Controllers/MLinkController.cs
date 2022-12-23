@@ -17,6 +17,7 @@ namespace MrLink.WebApi.Controllers
         public MLinkController(IMapper mapper) => _mapper = mapper;
 
         [HttpGet]
+        [ResponseCache( Duration = 30)]
         public async Task<ActionResult<LinkListVm>> GetAll()
         {
             var query = new GetLinkListQuery()

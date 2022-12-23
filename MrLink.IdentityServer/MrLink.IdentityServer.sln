@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MrLink.IdentityServer", "Notes.IdentityServer\MrLink.IdentityServer.csproj", "{EDFF0EED-0C3E-4011-B1F4-A5A60384E751}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MrLink.IdentityServer", "MrLink.IdentityServer\MrLink.IdentityServer.csproj", "{EDFF0EED-0C3E-4011-B1F4-A5A60384E751}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

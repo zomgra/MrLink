@@ -23,6 +23,7 @@
     <main style="display: inline-block; float: none" class="form-signin">
     <form asp-action="Login" asp-controller="Auth" method="post" class="mt-xl-5 w-auto">
         <h1 class="h3 mb-3 mt-5 fw-normal">Пожалуйста, войдите</h1>
+            <input hidden asp-for="ReturnUrl" />
 
         <div class="form-floating pt-2">
             <label>Username</label>
